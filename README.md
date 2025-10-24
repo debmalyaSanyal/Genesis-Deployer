@@ -6,9 +6,8 @@
 
 - Prompt-driven project creation (just describe your project idea!)
 - Automated GitHub repo setup and deployment
-- Customizable prompt templates
-- [Add any other features: CI/CD, Framework support, etc.]
-
+- Customizable prompt templates               
+                      
 ## How It Works
 
 1. Enter your project idea as a simple prompt.
@@ -17,7 +16,7 @@
 
 ## Installation
 
-git clone https://github.com/yourusername/genesis-deployer.git
+git clone https://github.com/debmalyaSanyal/genesis-deployer.git
 cd genesis-deployer
 pip install -r requirements.txt
 
