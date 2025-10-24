@@ -17,3 +17,40 @@
 
 ## Installation
 
+git clone https://github.com/yourusername/genesis-deployer.git
+cd genesis-deployer
+pip install -r requirements.txt
+
+text
+
+## Usage
+
+python -m genesis_deployer --prompt "A Flask app that says hello world"
+
+text
+
+Or, try out the interactive CLI:
+
+python cli.py
+
+text
+
+## Configuration
+
+- Set your GitHub token via environment variable `GITHUB_TOKEN`.
+- LLM API keys/configuration in `.env`.
+
+## Folder Structure
+
+- `/genesis_deployer`: Main source code
+- `/prompt_templates`: Reusable prompts for different project types
+- `/tests`: Unit tests
+- `/examples`: Example prompts and outputs
+
+## Contributing
+
+Pull requests are welcome! Please see `CONTRIBUTING.md` for guidance.
+
+## License
+
+[MIT](LICENSE)
